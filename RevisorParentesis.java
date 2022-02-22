@@ -28,7 +28,7 @@ public class RevisorParentesis<T> {
                     resp = false; // esto se da porque trate de eliminar datos y mi pila estaba vacia
                 }
             }
-            i++;
+            i++; // esto es porque no tengo que salir del string
         }
         // que no trate de eliminar cosas que no habia y que la pila se quedo sin datos porque los parentesis balanceados
        resp = resp && parentesis.isEmpty();
