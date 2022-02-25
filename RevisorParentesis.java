@@ -2,6 +2,7 @@ package EstructurasDeDatos;
 
 public class RevisorParentesis<T> {
     private String analize;
+    private String hola;
 
 
     public RevisorParentesis() {
